@@ -113,10 +113,7 @@ document.addEventListener("click", (event) => {
     const clickedElement = event.target;
     console.log("clickedElement",clickedElement);
     if (clickedElement.classList.contains("VfPpkd-kBDsod")) {
-        // Perform recorder.stop() or any other actions you need
-        console.log("Element with class 'VfPpkd-kBDsod' clicked. Stopping recorder.");
 
-        // Check if recorder is defined before stopping
         if (recorder) {
             recorder.stop();
         }
